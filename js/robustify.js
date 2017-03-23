@@ -143,6 +143,11 @@ var robustify = function (preferences) {
                 "offlineToVersionurl" : "Aangepaste verwijzing\n\nDe gevraagde pagina {url} is niet beschikbaar.\nU wordt doorgestuurd naar een gearchiveerde versie.",
                 "offlineToVersiondate": "Aangepaste verwijzing\n\nDe gevraagde pagina {url} is niet beschikbaar.\nU wordt doorgestuurd naar een webarchief dat mogelijk een versie heeft."
             }
+            //work in progress
+            "pt": {
+                "offlineToVersionurl" : "Redireção de ligação\n\nA página {url} não está disponível.\nSerá redirecionado para uma cópia arquivada.",
+                "offlineToVersiondate": "Redireção de ligação\n\nA página {url} não está disponível.\nSerá redirecionado para um arquivo da web que poderá conter uma versão desta página."
+            }
         } 
         var languages = [];
         for (var key in langStrTable) {
