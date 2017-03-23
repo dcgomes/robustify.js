@@ -145,9 +145,10 @@ var robustify = function (preferences) {
             },
             //work in progress
             "pt": {
-                "offlineToVersionurl" : "Redireção de ligação\n\nA página {url} não está disponível.\nSerá redirecionado para uma cópia arquivada.",
-                "offlineToVersiondate": "Redireção de ligação\n\nA página {url} não está disponível.\nSerá redirecionado para um arquivo da web que poderá conter uma versão desta página."
+                "offlineToVersionurl" : "Redire\u00E7\u00E3o de liga\u00E7\u00E3o 2\\n\\nA p\u00E1gina {url} n\u00E3o est\u00E1 dispon\u00EDvel.\\nSer\u00E1 redirecionado para uma c\u00F3pia arquivada.\r\n",
+                "offlineToVersiondate": "Redire\u00E7\u00E3o de liga\u00E7\u00E3o\\n\\nA p\u00E1gina {url} n\u00E3o est\u00E1 dispon\u00EDvel.\\nSer\u00E1 redirecionado para um arquivo da web que poder\u00E1 conter uma vers\u00E3o desta p\u00E1gina.\r\n"
             }
+
         } 
         var languages = [];
         for (var key in langStrTable) {
